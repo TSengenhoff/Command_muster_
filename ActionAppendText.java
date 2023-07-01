@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class ActionAppendText implements ActionListenerCommand{
     private String toAppend;
     private TextDocument doc;
