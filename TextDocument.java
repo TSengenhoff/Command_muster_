@@ -56,7 +56,7 @@ public class TextDocument {
         }
     }
 
-    public void saveFile(){;
+    public void saveFile(){
         try{
             FileWriter fileWriter = new FileWriter(this.file, true);
             fileWriter.append(textTemp);
